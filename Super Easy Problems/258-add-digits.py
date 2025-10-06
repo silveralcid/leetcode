@@ -1,3 +1,5 @@
+# Time: O(log n)
+# Space: O(log n)
 class Solution:
     def addDigits(self, num: int) -> int:
         while num >= 10:
