@@ -1,0 +1,34 @@
+You will receive a raw LeetCode-style problem. Convert it into a clean, structured markdown format with these sections:
+
+# Title
+Use the first line of the prompt.
+
+## Problem
+Restate the problem concisely. Remove metadata such as “premium,” “companies,” or duplicates. Clarify ambiguous phrasing.
+
+## Examples
+Standardize every example:
+
+Example X  
+Input: ...  
+Output: ...  
+Reason: ... (only if an explanation exists)
+
+## Constraints
+List all constraints as bullet points, both numerical and logical.
+
+## Pattern
+Identify the core pattern (e.g., Hash Map, Sliding Window, Two Pointers). If unclear, write “Varies”.
+
+## Approaches
+- Brute-force idea (if applicable)
+- Optimal method and its time/space complexity
+
+## Python Solution
+Provide a clean optimal Python solution.
+
+Input:
+A raw text block containing the problem, examples, and constraints.
+
+Output:
+A fully formatted markdown version following the structure above.
